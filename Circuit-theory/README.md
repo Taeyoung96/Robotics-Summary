@@ -1,8 +1,38 @@
 # 회로 이론
 
 ## Contents  
-- [1.회로를 구성하는 요소들](#1회로를-구성하는-요소들)
+- [Circuit Elements](#Circuit-Elements)
+- [Resistive Circuits](#Resistive-Circuits)  
+- [Nodal and Loop Analysis](#Nodal-and-Loop-Analysis)  
+- [Op AMP](#Op-AMP)
+- [Circuit Theorems](#Circuit-Theorems)  
+- [Capacitors and Inductors](#Capacitors-and-Inductors)  
+- [First and Second Order Transient Circuits](#First-and-Second-Order-Transient-Circuits)  
+- [AC Steady-State Analysis](#AC-Steady-State-Analysis)  
+- [Steady-State Power Analysis](#Steady-State-Power-Analysis)  
+- [Magnetically Coupled Networks](#Magnetically-Coupled-Networks)  
 
-## 1.회로를 구성하는 요소들
+
+## Circuit Elements
+
+## Resistive Circuits
+
+## Nodal and Loop Analysis
+
+## Circuit Theorems  
+
+## Op AMP  
+
+## Capacitors and Inductors
+
+## First and Second Order Transient Circuits
+
+## AC Steady-State Analysis  
+
+## Steady-State Power Analysis  
+
+## Magnetically Coupled Networks
+
+
 
 
