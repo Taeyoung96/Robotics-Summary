@@ -6,4 +6,4 @@
 
 ## Contents  
 - :zap: [회로이론](https://github.com/Taeyoung96/Robotics-Summary/tree/master/%ED%9A%8C%EB%A1%9C%EC%9D%B4%EB%A1%A0)  
-- :computer: [](https://github.com/Taeyoung96/Robotics-Summary/tree/master/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0)  
+- :computer: [컴퓨터구조](https://github.com/Taeyoung96/Robotics-Summary/tree/master/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0)  
