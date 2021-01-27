@@ -22,14 +22,32 @@
 - 파워 : 단위 시간 당 에너지, 단위는 와트(W) - 1W = 1 J/s  
   ❗ **P = V x I**  
 - 수동소자 / 능동소자  
-  - 수동소자 : 공급된 전력을 소비하는 소자  
+  - 수동소자 : 공급된 전력을 소비하는 소자 - Example) 저항, 캐패시터, 인덕터  
   - 능동소자 : 전력을 공급하는 소자  
   <p align="center">
   <img width="600"  src="Image/능동소자_수동소자.JPG">
-</p>  
+  </p>  
 
-- 저항 : 전하의 흐름을 방해하는 물질, 단위는 옴 - <img src="Image/ohm.gif" width="10%">
+- 저항 : 전하의 흐름을 방해하는 물질, 단위는 옴  
+  ❗ <img src="Image/ohm.gif" width="10%">  
+- Independent Sources vs Dependent Sources  
+  - Independent Sources : 회로에 전류에너지를 독립적으로 공급하는 것  
+  <p align="center">
+  <img width="400"  src="Image/Independent.JPG">
+  </p>  
+  ❗ 이상적인 상황일 때 **Open Circuit - 전류 = 0, Short Circuit - 전압 = 0**  
+  <p align="center">
+  <img width="500"  src="Image/open.JPG">
+  </p>  
+  - Dependent Sources : 다른 Independent Sources에 영향을 받아 전류에너지를 공급하는 것  
+  <p align="center">
+  <img width="600"  src="Image/dependent.JPG">
+  </p>
  
+ - 스위치 : ❗ 회로에 스위치가 나오면 시간을 나누어 문제를 풀자  
+  <p align="center">
+  <img width="500"  src="Image/switch.JPG">
+  </p> 
   
 
 ## Resistive Circuits
