@@ -24,7 +24,12 @@
 - 수동소자 / 능동소자  
   - 수동소자 : 공급된 전력을 소비하는 소자  
   - 능동소자 : 전력을 공급하는 소자  
-  ![능동소자_수동소자](Image/능동소자_수동소자.JPG)
+  <p align="center">
+  <img width="600"  src="Image/능동소자_수동소자.JPG">
+</p>  
+
+- 저항 : 전하의 흐름을 방해하는 물질, 단위는 옴 - <img src="Image/ohm.gif" width="10%">
+ 
   
 
 ## Resistive Circuits
