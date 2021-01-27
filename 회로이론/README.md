@@ -37,17 +37,17 @@
   </p>  
   ❗ 이상적인 상황일 때 **Open Circuit - 전류 = 0, Short Circuit - 전압 = 0**  
   <p align="center">
-  <img width="500"  src="Image/open.JPG">
+  <img width="550"  src="Image/open.JPG">
   </p>  
   
    - Dependent Sources : 다른 Independent Sources에 영향을 받아 전류에너지를 공급하는 것  
   <p align="center">
-  <img width="600"  src="Image/dependent.JPG">
+  <img width="650"  src="Image/dependent.JPG">
   </p>
  
  - 스위치 : ❗ 회로에 스위치가 나오면 시간을 나누어 문제를 풀자 (초기 상태 주의!)  
   <p align="center">
-  <img width="500"  src="Image/switch.JPG">
+  <img width="400"  src="Image/switch.JPG">
   </p> 
   
 
