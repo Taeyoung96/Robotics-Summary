@@ -35,7 +35,7 @@
   <p align="center">
   <img width="400"  src="Image/Independent.JPG">
   </p>  
-  ❗ 이상적인 상황일 때 **Open Circuit - 전류 = 0, Short Circuit - 전압 = 0**  
+  ❗ 이상적인 상황일 때 ** Open Circuit - 전류 = 0, Short Circuit - 전압 = 0 **  
   <p align="center">
   <img width="550"  src="Image/open.JPG">
   </p>  
@@ -49,7 +49,8 @@
   <p align="center">
   <img width="400"  src="Image/switch.JPG">
   </p> 
-  
+
+[뒤로](https://github.com/Taeyoung96/Robotics-Summary) / [위로](#Contents)
 
 ## Resistive Circuits
 
