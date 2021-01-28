@@ -50,7 +50,7 @@
   <img width="400"  src="Image/switch.JPG">
   </p> 
 
-[위로](#Contents) / [뒤로](https://github.com/Taeyoung96/Robotics-Summary)   
+[위로](#회로이론) / [뒤로](https://github.com/Taeyoung96/Robotics-Summary)   
 
 ## Resistive Circuits
 
