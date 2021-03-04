@@ -55,6 +55,12 @@ Ex ) 정수의 집합을 Z라 할 때, 이 집합은 Countable, inifinite
 - 확률 : **어떤 Sample sapce S에서 event가 발생할 수 있는 가능성 (확률은 함수로 정의)** - Relative frequency (상대 도수)를 이용하여 정의할 수 있다.  
 - 만족해야 하는 3가지 법칙  
 
-
+ <p align="center">
+ <img width="550"  src="Image/image1.JPG">
+ </p>
+  
 - 실험을 통한 수학적 모델  
 
+ <p align="center">
+ <img width="550"  src="Image/image2.JPG">
+ </p>
