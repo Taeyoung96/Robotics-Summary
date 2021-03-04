@@ -27,4 +27,34 @@
 - Finite : 집합이 비어있거나, 원소의 갯수가 유한할 때(셀 수 있을 때)  
 - Infinite : 원소의 갯수가 무한할 때(셀 수 없을 때)  
 
+Ex ) 정수의 집합을 Z라 할 때, 이 집합은 Countable, inifinite  
+(자연수의 집합으로 정수의 집합과 일대응 대응이 가능하고, 원소의 갯수를 셀 수 없다.)  
+유리수의 집합 Q라 할 때, 이 집합은 Countable, infinite  
+실수의 집합 R이라 할 때, 이 집합은 Uncountable, infinite  
+
+---  
+
+### 집합 기호
+
+- 합집합 : Union (= sum)  
+- 교집합 : Intersection (= product) - mutually exclusive일 때 교집합은 공집합이다.  
+- 여집합 : Complement  
+- 집합의 연산 법칙 (벤 다이어그램으로 증명)  
+    1. 교환 법칙 (The commutative law)  
+    2. 분배 법칙 (The distributive law)  
+    3. 결합 법칙 (The associatove law)  
+    4. 드모르간 법칙 (De Morgan's law)  
+    5. 쌍대성 원리 (Duality principle) - 참고 : [쌍대성](https://gazelle-and-cs.tistory.com/17)  
+
+## 확률의 정의  
+
+- 이론에 의한 정의
+- 실험을 통한 상대적인 빈도수에 의한 정의  
+- Sample space S : 실험을 통해 나올 수 있는 모든 경우의 수 (Discrete and continous sample spaces)  
+- Event : sample space의 부분 집합  
+- 확률 : **어떤 Sample sapce S에서 event가 발생할 수 있는 가능성 (확률은 함수로 정의)** - Relative frequency (상대 도수)를 이용하여 정의할 수 있다.  
+- 만족해야 하는 3가지 법칙  
+
+
+- 실험을 통한 수학적 모델  
 
