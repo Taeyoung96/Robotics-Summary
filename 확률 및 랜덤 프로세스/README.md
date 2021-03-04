@@ -56,7 +56,7 @@ Ex ) 정수의 집합을 Z라 할 때, 이 집합은 Countable, inifinite
 - 만족해야 하는 3가지 법칙  
 
  <p align="center">
- <img width="300"  src="Image/image1.JPG">
+ <img width="400"  src="Image/image1.JPG">
  </p>
   
 - 실험을 통한 수학적 모델  
