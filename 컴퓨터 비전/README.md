@@ -35,7 +35,7 @@ Pinhole 모델을 사용하게 되면 너무 어두워지는 단점을 **Lens를
 3. Vignette  
 4. Radial Distortion and Tangential Distortion  
 
-#### Spherical Aberration  
+#### 1. Spherical Aberration  
 
 렌즈가 오목하게 생기기 때문에 생기는 곡률로 인해 중앙에서 생기는 빛의 굴절률과 측면에서 생기는 빛의 굴절률이 다르다.  
 :point_right: Non-Spherical Lens(오목하게 생기지 않은 Lens), Multiple Lens(여러 개의 Lens)를 사용하여 빛이 한 점으로 모이도록 해준다!  
@@ -44,7 +44,7 @@ Pinhole 모델을 사용하게 되면 너무 어두워지는 단점을 **Lens를
  <img width="550"  src="Image/Image3.JPG">
  </p>
 
-#### Chromatic Aberration  
+#### 2. Chromatic Aberration  
 
 빛의 파장이 색깔마다 각자의 고유값이 있기 때문에 생기는 차이  
 :point_right: 카메라의 구조를 바꿔서 해결할 수 있는 문제는 아니다. :cry:  
@@ -57,7 +57,7 @@ Pinhole 모델을 사용하게 되면 너무 어두워지는 단점을 **Lens를
  <img width="400"  src="Image/Image4_1.JPG">
  </p>
 
-#### Vignette  
+#### 3. Vignette  
 
 다양한 Aperture에 의해 빛이 부분적으로 들어오는 문제점  
 이미지의 가운데 부분보다 측면 부분이 어둡게 나오는 것이 문제점이다.   
@@ -67,14 +67,14 @@ Pinhole 모델을 사용하게 되면 너무 어두워지는 단점을 **Lens를
  <img width="400"  src="Image/Image5.JPG">
  </p>
 
-##### Radial Distortion and Tangential Distortion  
+##### 4. Radial Distortion and Tangential Distortion  
 
 이미지 평면에서 보이는 위치와 실제 위치가 다르게 나타나는 현상  
 이상적인 축보다 볼록하게 보이거나 오목하게 보이는 것이 특징이다.  
 :point_right: Brown DC Model을 이용하여 보정을 통해 해결  
  
  <p align="center">
- <img width="400"  src="Image/Image6.JPG">
+ <img width="500"  src="Image/Image6.JPG">
  </p>
 
 
