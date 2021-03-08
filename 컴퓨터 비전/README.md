@@ -19,7 +19,7 @@ Computer Vision System : Scene(3차원 공간)을 빛을 통해 들어온 정보
  <img width="400"  src="Image/Image1.JPG">
  </p>
 
-Aperture의 크기는 빛의 파장과 연관이 되어있다. 작으면 작을수록 Blurring이 안 일어나지만 너무 어두워진다.  
+Aperture(조리개)의 크기는 빛의 파장과 연관이 되어있다. 작으면 작을수록 Blurring이 안 일어나지만 너무 어두워진다.  
 Aperture의 크기가 너무 작아도 초점이 맞지않아 흐려진다.  
 
 Pinhole 모델을 사용하게 되면 너무 어두워지는 단점을 **Lens를 사용하여 단점을 보완**한다.  
