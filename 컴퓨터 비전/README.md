@@ -85,6 +85,9 @@ Perspective Projection - 3차원 정보들을 2차원 이미지에 투영하는�
  <img width="600"  src="Image/Image7.JPG">
  </p>
 
+:point_right: 오른쪽 위에 보이는 점 X가 사실 평면 1에 투영되지만  
+Aperture(Camera center)의 원점 대칭하여 평면 2에 맺히는 것으로 생각을 한다.  
+(좀 더 직관적으로 이해하기 쉽기 때문이다.)
 
 
 
