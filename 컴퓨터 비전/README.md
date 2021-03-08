@@ -77,6 +77,22 @@ Pinhole 모델을 사용하게 되면 너무 어두워지는 단점을 **Lens를
  <img width="500"  src="Image/Image6.JPG">
  </p>
 
+### Projection  
+
+Perspective Projection - 3차원 정보들을 2차원 이미지에 투영하는데 사용하는 기술  
+
+ <p align="center">
+ <img width="600"  src="Image/Image7.JPG">
+ </p>
+
+
+
+
+
+
+
+
+ [위로](#Contents) / [뒤로](https://github.com/Taeyoung96/Robotics-Summary)   
 
 
 
