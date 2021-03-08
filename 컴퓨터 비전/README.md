@@ -19,7 +19,7 @@ Computer Vision System : Scene(3차원 공간)을 빛을 통해 들어온 정보
  <img width="400"  src="Image/Image1.JPG">
  </p>
 
-Aperture의 크기는 빛의 파장과 연관이 되어있다. 작으면 작을수록 Blurring이 안 일어나지만 너무 어두워진다.  
+Aperture(조리개)의 크기는 빛의 파장과 연관이 되어있다. 작으면 작을수록 Blurring이 안 일어나지만 너무 어두워진다.  
 Aperture의 크기가 너무 작아도 초점이 맞지않아 흐려진다.  
 
 Pinhole 모델을 사용하게 되면 너무 어두워지는 단점을 **Lens를 사용하여 단점을 보완**한다.  
@@ -89,10 +89,34 @@ Perspective Projection - 3차원 정보들을 2차원 이미지에 투영하는�
 Aperture(Camera center)의 원점 대칭하여 평면 2에 맺히는 것으로 생각을 한다.  
 (좀 더 직관적으로 이해하기 쉽기 때문이다.)
 
+Perspective Projection을 이해하기 전에 Homogeneous 좌표계를 이해해야 한다!  
+참고 : [[영상 Geometry #2] Homogeneous Coordinates](https://darkpgmr.tistory.com/78)  
 
+3차원 공간에서 한 점을 (x,y,z)라고 할 때 이것을 Homogeneous로 나타내면 (x,y,z,1)로 나타낼 수 있다.  
+이 점 (x,y,z,1)을 이미지 평면에 한 점 (u', v')로 투영시킬 때 어떻게 하는지 알아보자.  
 
+아래 사진에서는 이미지 평면도 Homogeneous Coordinates 표현하면 (u', v', 1) = (U, V, S)로 나타낼 수 있다.  
 
+ <p align="center">
+ <img width="500"  src="Image/Image8.JPG">
+ </p>
 
+이 때 이미지 좌표계는 이미지의 중심이 아니라 좌측 상부(or 좌측 하부)이므로 평행이동 값을 고려하여 다시 matrix를 써보면  
+(Homogeneous Coordinates를 간략하게 쓸 때 알파벳 위에 ~를 붙여 표시한다.)  
+
+ <p align="center">
+ <img width="500"  src="Image/Image9.JPG">
+ </p> 
+ <p align="center">
+ <img width="500"  src="Image/Image10.JPG">
+ </p>
+
+Camera 좌표계와 World 좌표계에는 Rotation과 Translation Matrix로 표현할 수 있다.  
+이 두개의 Matrix를 **extrinsic camera parameters**이라고 표현한다.  
+
+ <p align="center">
+ <img width="500"  src="Image/Image11.JPG">
+ </p>
 
 
  [위로](#Contents) / [뒤로](https://github.com/Taeyoung96/Robotics-Summary)   
