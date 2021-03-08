@@ -98,24 +98,24 @@ Perspective Projection을 이해하기 전에 Homogeneous 좌표계를 이해해
 아래 사진에서는 이미지 평면도 Homogeneous Coordinates 표현하면 (u', v', 1) = (U, V, S)로 나타낼 수 있다.  
 
  <p align="center">
- <img width="500"  src="Image/Image8.JPG">
+ <img width="600"  src="Image/Image8.JPG">
  </p>
 
 이 때 이미지 좌표계는 이미지의 중심이 아니라 좌측 상부(or 좌측 하부)이므로 평행이동 값을 고려하여 다시 matrix를 써보면  
 (Homogeneous Coordinates를 간략하게 쓸 때 알파벳 위에 ~를 붙여 표시한다.)  
 
  <p align="center">
- <img width="500"  src="Image/Image9.JPG">
+ <img width="600"  src="Image/Image9.JPG">
  </p> 
  <p align="center">
- <img width="500"  src="Image/Image10.JPG">
+ <img width="600"  src="Image/Image10.JPG">
  </p>
 
 Camera 좌표계와 World 좌표계에는 Rotation과 Translation Matrix로 표현할 수 있다.  
 이 두개의 Matrix를 **extrinsic camera parameters**이라고 표현한다.  
 
  <p align="center">
- <img width="500"  src="Image/Image11.JPG">
+ <img width="300"  src="Image/Image11.JPG">
  </p>
 
 
