@@ -80,20 +80,20 @@ Ex ) 정수의 집합을 Z라 할 때, 이 집합은 Countable, inifinite
  
  - 만족하는 3가지 법칙
 <p align="center">
-<img width="350"  src="Image/image5.jpg">
+<img width="400"  src="Image/image5.jpg">
 </p> 
  
  - 대표적인 조건부 확률 문제 : [몬티홀 문제 설명 블로그](https://tali.tistory.com/1113)  
 
 - 전체 확률의 법칙 (Total probability) : 조건부 확률로부터 조건이 붙지 않은 확률을 계산할 때 사용  
 <p align="center">
-<img width="550"  src="Image/image6.jpg">
+<img width="600"  src="Image/image6.jpg">
 </p> 
 
 위와 같은 조건을 만족해야한다.  
 
 <p align="center">
-<img width="300"  src="Image/image7.jpg">
+<img width="250"  src="Image/image7.jpg">
 </p> 
 
 - **베이지안 확률 (Bayes’ theorem)** : p(B_n) 과 𝑝(𝐴|𝐵) 을 알고 있다고 할 때, 다음과 같은 식이 성립한다.  
