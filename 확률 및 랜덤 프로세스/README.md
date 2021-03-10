@@ -46,7 +46,7 @@ Ex ) 정수의 집합을 Z라 할 때, 이 집합은 Countable, inifinite
     4. 드모르간 법칙 (De Morgan's law)  
     5. 쌍대성 원리 (Duality principle) - 참고 : [쌍대성](https://gazelle-and-cs.tistory.com/17)  
 
-## 확률의 정의  
+### 확률의 정의  
 
 - 이론에 의한 정의
 - 실험을 통한 상대적인 빈도수에 의한 정의  
@@ -64,5 +64,53 @@ Ex ) 정수의 집합을 Z라 할 때, 이 집합은 Countable, inifinite
  <p align="center">
  <img width="550"  src="Image/image2.JPG">
  </p>
+
+- Joint probability : A의 event와 B event가 동시에 일어날 확률 = (A와 B 교집합이 일어날 확률)  
  
+ <p align="center">
+ <img width="550"  src="Image/image3.jpg">
+ </p>
+ 
+ A와 B가 Mutually exclusive 관계일 때 위 그림에서 등호가 성립한다.  
+
+- **조건부 확률 (Conditional probability)** - Event B가 일어날 확률이 0보다 클 때, Event A가 일어날 확률을 Event B가 일어날 확률을 고려하여 구하는 확률  
+ <p align="center">
+ <img width="550"  src="Image/image4.jpg">
+ </p> 
+ 
+ - 만족하는 3가지 법칙
+<p align="center">
+<img width="550"  src="Image/image5.jpg">
+</p> 
+ 
+ - 대표적인 조건부 확률 문제 : [몬티홀 문제 설명 블로그](https://tali.tistory.com/1113)  
+
+- 전체 확률의 법칙 (Total probability) : 조건부 확률로부터 조건이 붙지 않은 확률을 계산할 때 사용  
+<p align="center">
+<img width="550"  src="Image/image6.jpg">
+</p> 
+
+위와 같은 조건을 만족해야한다.  
+
+<p align="center">
+<img width="550"  src="Image/image7.jpg">
+</p> 
+
+- **베이지안 확률 (Bayes’ theorem)** : p(B_n) 과 𝑝(𝐴|𝐵) 을 알고 있다고 할 때, 다음과 같은 식이 성립한다.  
+
+<p align="center">
+<img width="550"  src="Image/image8.jpg">
+</p> 
+
+베이즈 정리는 근본적으로 사전확률과 사후확률 사이의 관계를 나타내는 정리이다.  
+
+- 참고자료 : [베이즈 정리의 의미](https://angeloyeo.github.io/2020/01/09/Bayes_rule.html)  
+
+- 독립 사건 (Independent Event) : 𝑝(𝐴) ≠ 0 𝑎𝑛𝑑 𝑝(𝐵) ≠ 0 일 때,  
+𝑝(𝐴|𝐵) = 𝑝(𝐴), 𝑝(𝐵|𝐴) = 𝑝(𝐵), 𝑝(𝐴 ∩ 𝐵) = 𝑝(𝐴)𝑝(𝐵)를 만족한다.  
+
+- Multiple events : N개의 events에서 Multiple events의 경우의 수는 2^n - N - 1이다.  
+(N은 하나만 뽑는 갯수, 1은 아무것도 안 뽑는 갯수)
+
+
  [위로](#Contents) / [뒤로](https://github.com/Taeyoung96/Robotics-Summary)   
