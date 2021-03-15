@@ -130,7 +130,7 @@ Camera 좌표계와 World 좌표계에는 Rotation과 Translation Matrix로 표�
 따라서 밝기 변화에 강인한 HSV, YUV 색공간으로 변화 후 처리를 하기도 한다.  
 
 <p align="center">
- <img width="500"  src="Image/Image12_1.JPG">
+ <img width="600"  src="Image/Image12_1.JPG">
  </p>
 
  <p align="center">
@@ -169,7 +169,7 @@ Camera 좌표계와 World 좌표계에는 Rotation과 Translation Matrix로 표�
 Intensity를 Linear하게 변환을 하여 Contrast를 크게 만들면 이미지가 좀 더 선명하게 보일 수 있다.  
 
 <p align="center">
- <img width="500"  src="Image/Image16.JPG">
+ <img width="600"  src="Image/Image16.JPG">
 </p>
 
 
