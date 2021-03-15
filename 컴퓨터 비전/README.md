@@ -130,17 +130,17 @@ Camera 좌표계와 World 좌표계에는 Rotation과 Translation Matrix로 표�
 따라서 밝기 변화에 강인한 HSV, YUV 색공간으로 변화 후 처리를 하기도 한다.  
 
 <p align="center">
- <img width="300"  src="Image/Image12_1.JPG">
+ <img width="500"  src="Image/Image12_1.JPG">
  </p>
 
  <p align="center">
- <img width="300"  src="Image/Image12.JPG">
+ <img width="400"  src="Image/Image12.JPG">
  </p>  
  
  NRG는 Normalized RG의 약자. 다음과 같은 식을 만족하도록 R,G,B 값을 정규화과정을 거친다.  
  
 <p align="center">
- <img width="300"  src="Image/Image13.JPG">
+ <img width="350"  src="Image/Image13.JPG">
 </p>  
 
 다양한 색공간이 존재하는 이유는?  
@@ -159,17 +159,17 @@ Camera 좌표계와 World 좌표계에는 Rotation과 Translation Matrix로 표�
 - 분산이 작으면 흐릿하게 보이고, 분산이 크면 선명하게 보인다.  
 
 <p align="center">
- <img width="300"  src="Image/Image14.JPG">
+ <img width="500"  src="Image/Image14.JPG">
 </p>  
 
 <p align="center">
- <img width="300"  src="Image/Image15.JPG">
+ <img width="500"  src="Image/Image15.JPG">
 </p>  
 
 Intensity를 Linear하게 변환을 하여 Contrast를 크게 만들면 이미지가 좀 더 선명하게 보일 수 있다.  
 
 <p align="center">
- <img width="300"  src="Image/Image16.JPG">
+ <img width="500"  src="Image/Image16.JPG">
 </p>
 
 
