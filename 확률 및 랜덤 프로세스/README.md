@@ -162,18 +162,18 @@ Ex ) 정수의 집합을 Z라 할 때, 이 집합은 Countable, inifinite
 Distribution function이 가지는 특성  
 
 <p align="center">
-<img width="400"  src="Image/image12_1.JPG">
+<img width="200"  src="Image/image12_1.JPG">
 </p> 
 
 <p align="center">
-<img width="400"  src="Image/image13.JPG">
+<img width="350"  src="Image/image13.JPG">
 </p> 
 
 **만약 X가 Discrete random variable이라면,**  
 Distribution function은 step function 모양으로 나타나게 된다.  
 
 <p align="center">
-<img width="400"  src="Image/image14.JPG">
+<img width="250"  src="Image/image14.JPG">
 </p> 
 
 <p align="center">
