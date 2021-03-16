@@ -106,11 +106,40 @@ Ex ) 정수의 집합을 Z라 할 때, 이 집합은 Countable, inifinite
 
 - 참고자료 : [베이즈 정리의 의미](https://angeloyeo.github.io/2020/01/09/Bayes_rule.html)  
 
+### Independen Events & Combined Experiments  
+
 - 독립 사건 (Independent Event) : 𝑝(𝐴) ≠ 0 𝑎𝑛𝑑 𝑝(𝐵) ≠ 0 일 때,  
 𝑝(𝐴|𝐵) = 𝑝(𝐴), 𝑝(𝐵|𝐴) = 𝑝(𝐵), 𝑝(𝐴 ∩ 𝐵) = 𝑝(𝐴)𝑝(𝐵)를 만족한다.  
 
 - Multiple events : N개의 events에서 Multiple events의 경우의 수는 2^n - N - 1이다.  
 (N은 하나만 뽑는 갯수, 1은 아무것도 안 뽑는 갯수)
 
+- Combined Experiments : 개별적인 실험을 결합하여 하나의 실험으로 간주할 때 사용 Ex) 2차원 좌표평면  
+    보통 'x'를 이용하여 표기 **곱하기와 표기가 같으므로 혼동 주의!**  
+
+- Permutations (순열) : 여러번 시도를 해서 순서가 중요한 경우  
+
+<p align="center">
+<img width="400"  src="Image/image9.jpg">
+</p> 
+
+- Combinations (조합) : 여러번 시도를 해서 순서가 중요하지 않은 경우  
+
+<p align="center">
+<img width="400"  src="Image/image10.jpg">
+</p> 
+
+- Bernoulli Trials (베르누이 시행) : 임의의 실험에서 결과가 '성공' 아니면 '실패' 둘 중 하나인 것  
+    이항정리와 비슷하다고 생각하면 이해하기 쉽다.  
+
+이항 계수는 다음과 같은 식으로 정리할 수 있다.  
+<p align="center">
+<img width="400"  src="Image/image11.jpg">
+</p>  
+
+베르누이 시행을 식으로 정리하면 다음과 같다.  
+<p align="center">
+<img width="400"  src="Image/image12.jpg">
+</p> 
 
  [위로](#Contents) / [뒤로](https://github.com/Taeyoung96/Robotics-Summary)   
