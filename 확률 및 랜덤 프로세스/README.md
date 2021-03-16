@@ -157,7 +157,7 @@ Ex ) 정수의 집합을 Z라 할 때, 이 집합은 Countable, inifinite
 
 ### Distribution Function  
 
-- Cumulative distribution function (누적 분포 함수) : 누적 분포 함수는 주어진 확률 변수가 특정 값보다 작거나 같은 확률을 나타내는 함수  
+Cumulative distribution function (누적 분포 함수) : 누적 분포 함수는 주어진 확률 변수가 특정 값보다 작거나 같은 확률을 나타내는 함수  
 
 Distribution function이 가지는 특성  
 
@@ -187,3 +187,14 @@ Distribution function은 직선 모양으로 나타나게 된다.
 <img width="400"  src="Image/image16.JPG">
 </p> 
 
+
+### Density Function  
+
+Density function이란 Distribution function을 x로 미분한 값  
+
+<p align="center">
+<img width="400"  src="Image/image17.JPG">
+</p> 
+
+
+ [위로](#Contents) / [뒤로](https://github.com/Taeyoung96/Robotics-Summary)   
