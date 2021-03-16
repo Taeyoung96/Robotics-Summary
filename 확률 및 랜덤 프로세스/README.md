@@ -193,7 +193,7 @@ Distribution function은 직선 모양으로 나타나게 된다.
 Density function이란 Distribution function을 x로 미분한 값  
 
 <p align="center">
-<img width="400"  src="Image/image17.JPG">
+<img width="150"  src="Image/image17.JPG">
 </p> 
 
 
