@@ -2,6 +2,7 @@
 
 ## Contents
 - [Definitions of Probability](#Definitions-of-Probability)  
+- [The Random Variable](#The-Random-Variable)
 
 
 ## Definitions of Probability  
@@ -120,13 +121,13 @@ Ex ) 정수의 집합을 Z라 할 때, 이 집합은 Countable, inifinite
 - Permutations (순열) : 여러번 시도를 해서 순서가 중요한 경우  
 
 <p align="center">
-<img width="400"  src="Image/image9.jpg">
+<img width="180"  src="Image/image9.JPG">
 </p> 
 
 - Combinations (조합) : 여러번 시도를 해서 순서가 중요하지 않은 경우  
 
 <p align="center">
-<img width="400"  src="Image/image10.jpg">
+<img width="230"  src="Image/image10.JPG">
 </p> 
 
 - Bernoulli Trials (베르누이 시행) : 임의의 실험에서 결과가 '성공' 아니면 '실패' 둘 중 하나인 것  
@@ -134,12 +135,55 @@ Ex ) 정수의 집합을 Z라 할 때, 이 집합은 Countable, inifinite
 
 이항 계수는 다음과 같은 식으로 정리할 수 있다.  
 <p align="center">
-<img width="400"  src="Image/image11.jpg">
+<img width="380"  src="Image/image11.JPG">
 </p>  
 
 베르누이 시행을 식으로 정리하면 다음과 같다.  
 <p align="center">
-<img width="400"  src="Image/image12.jpg">
+<img width="400"  src="Image/image12.JPG">
 </p> 
 
  [위로](#Contents) / [뒤로](https://github.com/Taeyoung96/Robotics-Summary)   
+
+## The Random Variable  
+
+### Random Variable의 정의  
+
+어떠한 표본 Sample space S의 있는 값들을 다른 공간(line)으로 Mapping시켜주는 함수  
+**S에 있는 모든 점들은 무조건 일대일 대응이 되어야 한다.**  
+
+- {X ≤ x} : 랜덤 변수 X가 숫자 x를 초과하지 않는 표본 공간의 점 s에 해당  
+- Discrete하게 될 수도 있고, Continous하게 될 수도 있다. 물론 Mixed(Discrete + Continous)하게 될 수도 있다.  
+
+### Distribution Function  
+
+- Cumulative distribution function (누적 분포 함수) : 누적 분포 함수는 주어진 확률 변수가 특정 값보다 작거나 같은 확률을 나타내는 함수  
+
+Distribution function이 가지는 특성  
+
+<p align="center">
+<img width="400"  src="Image/image12_1.JPG">
+</p> 
+
+<p align="center">
+<img width="400"  src="Image/image13.JPG">
+</p> 
+
+**만약 X가 Discrete random variable이라면,**  
+Distribution function은 step function 모양으로 나타나게 된다.  
+
+<p align="center">
+<img width="400"  src="Image/image14.JPG">
+</p> 
+
+<p align="center">
+<img width="400"  src="Image/image15.JPG">
+</p> 
+
+**만약 X가 Continous random variable이라면,**  
+Distribution function은 직선 모양으로 나타나게 된다.  
+
+<p align="center">
+<img width="400"  src="Image/image16.JPG">
+</p> 
+
