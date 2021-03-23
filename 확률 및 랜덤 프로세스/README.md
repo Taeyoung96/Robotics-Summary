@@ -213,7 +213,7 @@ PDF(Probability density function)은 아래와 같이 정의할 수 있다.
 Density function은 다음과 같은 특성을 가진다.  
 
 <p align="center">
-<img width="400"  src="Image/image20.JPG">
+<img width="300"  src="Image/image20.JPG">
 </p>
 
 ### Gaussian Random Variable  
@@ -221,24 +221,24 @@ Density function은 다음과 같은 특성을 가진다.
 다음과 같은 Density function을 만족하는 Random Variable X를 **Gaussian**이라고 부른다.  
 
 <p align="center">
-<img width="500"  src="Image/image21.JPG">
+<img width="600"  src="Image/image21.JPG">
 </p>
 
 적분을 구해 CDF(Cumulative distribution function)를 구하는 것이 일반적이지만 적분이 쉽지 않으므로 **표준화 과정**을 거쳐 구한다.  
 
 <p align="center">
-<img width="500"  src="Image/image22.JPG">
+<img width="450"  src="Image/image22.JPG">
 </p>  
 
 또 다른 방법으로 CDF를 구할 때, Q-function을 이용해서 구하기도 한다. (추천하는 방법은 아님)  
 Q-function은 정확하게 적분을 할 수 없지만 근사화가 가능하다.  
 
 <p align="center">
-<img width="500"  src="Image/image23.JPG">
+<img width="400"  src="Image/image23.JPG">
 </p>  
 
 <p align="center">
-<img width="500"  src="Image/image24.JPG">
+<img width="600"  src="Image/image24.JPG">
 </p>  
 
 
