@@ -4,6 +4,8 @@
 - [Camera Geometry](#Camera-Geometry)  
 - [Color Transform](#Color-Transform)
 - [Image Thresholding](#Image-Thresholding)
+- [Image Labeling](#Image-Labeling)
+- [Morphology](#Morphology)
 
 ## Camera Geometry
 
@@ -229,6 +231,7 @@ Intensity를 Linear하게 변환을 하여 Contrast를 크게 만들면 이미�
 **가장 최적의 Threshold는 Within-class variance를 최소화시켜주는 값이다.**  
 
 또 다른 방법으로는 **Between-class Variance**를 이용해서 최적의 t값을 찾는 방법이 있다.  
+Between-class variance는 원래 Clustering에서 주로 사용되던 개념이다.  
 
 Within-class variance를 최소화시키는 것과 Between-class variance를 최대화시키는 것은 같은 의미이다.  
 
@@ -240,11 +243,51 @@ Between-class variance를 이용해서 최적의 t를 찾는 방법은 다음과
 
 <p align="center">
  <img width="450"  src="Image/Image23.JPG">
+</p> 
+
+위 그림 2번째 과정에서 Inremental average라는 개념이 나온다. 점화식을 이용하여 평균을 빠르게 구하는 방법이다.  
+참고 : [Incremental averageing](https://math.stackexchange.com/questions/106700/incremental-averageing)  
+
+[위로](#Contents) / [뒤로](https://github.com/Taeyoung96/Robotics-Summary) 
+
+## Image Labeling  
+
+이미지 라벨링이란 각각의 성분들로 Binary Image를 분류하고 싶을 때 사용하는 기법이다.  
+
+인접한 픽셀들끼리 연결되어있다는 것을 판단지어아 하는데,  
+보통 '4-Neighbors' 방법과 '8-Neighbors' 방법이 있다.  
+
+<p align="center">
+ <img width="450"  src="Image/Image24.JPG">
+</p>  
+
+왼쪽 상단부터 시작하여 맨 위쪽 pixel들과 맨 왼쪽 pixel들을 제외한 후 (인접한 픽셀 정보(B,C,D)를 확인할 수 없기 때문!)  
+규칙에 맞게 인접하게 연결되어 있는지 검사를 한다.  
+
+<p align="center">
+ <img width="450"  src="Image/Image25.JPG">
+</p>  
+
+'4-Neighbors' 방법일 경우 아래와 같은 규칙을 사용한다.  
+
+<p align="center">
+ <img width="450"  src="Image/Image26.JPG">
+</p>  
+
+'8-Neighbors' 방법일 경우 아래와 같은 규칙을 사용한다.  
+
+<p align="center">
+ <img width="450"  src="Image/Image27.JPG">
+</p>  
+
+규칙에 따라 검사를 하다가 애매해지는 경우, **Equivalence table**을 만들어서 서로 같은 Label이라는 것을 알려준다.  
+
+<p align="center">
+ <img width="450"  src="Image/Image28.JPG">
 </p>  
 
 [위로](#Contents) / [뒤로](https://github.com/Taeyoung96/Robotics-Summary) 
 
-
-
+## Morphology  
 
 
