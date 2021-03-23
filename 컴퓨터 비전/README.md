@@ -258,32 +258,32 @@ Between-class variance를 이용해서 최적의 t를 찾는 방법은 다음과
 보통 '4-Neighbors' 방법과 '8-Neighbors' 방법이 있다.  
 
 <p align="center">
- <img width="450"  src="Image/Image24.JPG">
+ <img width="400"  src="Image/Image24.JPG">
 </p>  
 
 왼쪽 상단부터 시작하여 맨 위쪽 pixel들과 맨 왼쪽 pixel들을 제외한 후 (인접한 픽셀 정보(B,C,D)를 확인할 수 없기 때문!)  
 규칙에 맞게 인접하게 연결되어 있는지 검사를 한다.  
 
 <p align="center">
- <img width="450"  src="Image/Image25.JPG">
+ <img width="400"  src="Image/Image25.JPG">
 </p>  
 
 '4-Neighbors' 방법일 경우 아래와 같은 규칙을 사용한다.  
 
 <p align="center">
- <img width="450"  src="Image/Image26.JPG">
+ <img width="600"  src="Image/Image26.JPG">
 </p>  
 
 '8-Neighbors' 방법일 경우 아래와 같은 규칙을 사용한다.  
 
 <p align="center">
- <img width="450"  src="Image/Image27.JPG">
+ <img width="600"  src="Image/Image27.JPG">
 </p>  
 
 규칙에 따라 검사를 하다가 애매해지는 경우, **Equivalence table**을 만들어서 서로 같은 Label이라는 것을 알려준다.  
 
 <p align="center">
- <img width="450"  src="Image/Image28.JPG">
+ <img width="600"  src="Image/Image28.JPG">
 </p>  
 
 [위로](#Contents) / [뒤로](https://github.com/Taeyoung96/Robotics-Summary) 
