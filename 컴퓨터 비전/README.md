@@ -336,13 +336,13 @@ Morphology 연산과 집합을 이용하여 경계를 추출하는 알고리즘�
 1. 기존 이미지에서 erosion 연산을 진행한 이미지를 빼주게 되면 경계 부분만 남는다.  
 
 <p align="center">
- <img width="300"  src="Image/Image35.JPG">
+ <img width="200"  src="Image/Image35.JPG">
 </p>  
 
 2. Dilation 연산을 진행한 이미지에서 기존 이미지를 빼주게 되면 경계 부분만 남는다.  
 
 <p align="center">
- <img width="300"  src="Image/Image36.JPG">
+ <img width="200"  src="Image/Image36.JPG">
 </p>  
 
 아래의 이미지는 Boundary Extractor를 사용한 예시이다.  
