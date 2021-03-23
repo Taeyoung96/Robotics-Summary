@@ -262,7 +262,7 @@ Gaussian이 가장 대표적이긴 하지만 여러 형태의 Distribution funct
 왼쪽이 PDF, 오른쪽이 CDF에 대한 함수이다.  
 
 <p align="center">
-<img width="700"  src="Image/image26.JPG">
+<img width="600"  src="Image/image26.JPG">
 </p>  
 
 **푸아송 분포는 이항 분포의 특수한 형태이다!**  
