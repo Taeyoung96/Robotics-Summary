@@ -290,7 +290,7 @@ Between-class variance를 이용해서 최적의 t를 찾는 방법은 다음과
 
 ## Morphology  
 
-Morphology란?
+Morphology란?  
 :point_right: Binary image를 좀 더 가공하여 노이즈를 제거하거나 너무 작은 feature들을 없애기 위해 하는 연산이다.  
 
 - Dilation(확장)  
@@ -354,3 +354,5 @@ d는 두번째 방법을 이용한 경우
 <p align="center">
  <img width="600"  src="Image/Image37.JPG">
 </p>  
+
+[위로](#Contents) / [뒤로](https://github.com/Taeyoung96/Robotics-Summary) 
