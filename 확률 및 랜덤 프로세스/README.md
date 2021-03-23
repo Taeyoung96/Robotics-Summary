@@ -238,10 +238,81 @@ Q-function은 정확하게 적분을 할 수 없지만 근사화가 가능하다
 </p>  
 
 <p align="center">
-<img width="600"  src="Image/image24.JPG">
+<img width="700"  src="Image/image24.JPG">
+</p>  
+
+### Other Distribution and Density examples 
+
+Gaussian이 가장 대표적이긴 하지만 여러 형태의 Distribution function이 존재한다.  
+
+**Discrete한 Random Variable일 때,**  
+
+1. Binomal  
+
+이항 분포(Binomial distribution)는 연속된 n번의 독립적 시행에서 각 시행이 확률 p를 가질 때의 이산 확률 분포이다.  
+왼쪽이 PDF, 오른쪽이 CDF에 대한 함수이다.  
+
+<p align="center">
+<img width="700"  src="Image/image25.JPG">
+</p>  
+
+2. Poisson
+
+푸아송 분포(Poisson distribution)는 단위 시간 안에 어떤 사건이 몇 번 발생할 것인지를 표현하는 이산 확률 분포이다.  
+왼쪽이 PDF, 오른쪽이 CDF에 대한 함수이다.  
+
+<p align="center">
+<img width="700"  src="Image/image26.JPG">
+</p>  
+
+**푸아송 분포는 이항 분포의 특수한 형태이다!**  
+
+이항분포를 따르는 위와 같은 확률변수 X에서, n이 대단히 크고 p가 대단히 작을 경우, 이 확률변수 X는 λ=np인 푸아송 분포로 근사할 수 있다.  
+
+**Continous한 Random Variable일 때,**  
+
+3. Uniform  
+
+균일 분포(Uniform distribution)은 모든 확률 변수에 대해 균일할 확률 분포를 가지고 있는 연속 확률 분포이다.  
+주로 아날로그 회로를 디지털로 변환할 때 많이 쓰인다.  
+
+왼쪽이 PDF, 오른쪽이 CDF에 대한 함수이다.  
+
+<p align="center">
+<img width="700"  src="Image/image27.JPG">
+</p>  
+
+<p align="center">
+<img width="700"  src="Image/image27_1.JPG">
+</p>  
+
+4. Exponential  
+
+지수 분포(Exponential distribution)는 사건의 횟수가 푸아송 분포를 따른다면, 다음 사건이 일어날 때까지 대기 시간이 따르는 연속 확률 분포이다.  
+왼쪽이 PDF, 오른쪽이 CDF에 대한 함수이다.  
+
+<p align="center">
+<img width="700"  src="Image/image28.JPG">
+</p> 
+
+<p align="center">
+<img width="700"  src="Image/image28_1.JPG">
+</p>  
+
+5. Rayleigh  
+
+레일리 분포(Rayleigh distribution)는 예를 들어 2차원 벡터의 직교 성분이 정규 분포일 경우, 벡터의 크기가 나타내는 연속 확률 분포이다.  
+주로 bandpass filter를 설계할 때 많이 쓰인다.  
+
+<p align="center">
+<img width="700"  src="Image/image29.JPG">
+</p>  
+
+<p align="center">
+<img width="700"  src="Image/image29_1.JPG">
 </p>  
 
 
 
 
- [위로](#Contents) / [뒤로](https://github.com/Taeyoung96/Robotics-Summary)   
+[위로](#Contents) / [뒤로](https://github.com/Taeyoung96/Robotics-Summary)   
