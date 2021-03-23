@@ -290,4 +290,67 @@ Between-class variance를 이용해서 최적의 t를 찾는 방법은 다음과
 
 ## Morphology  
 
+Morphology란?
+:point_right: Binary image를 좀 더 가공하여 노이즈를 제거하거나 너무 작은 feature들을 없애기 위해 하는 연산이다.  
 
+- Dilation(확장)  
+인접한 픽셀에 흰색(foreground) 영역이 있으면 그 부분을 확장 시켜주는 역할을 한다.  
+foreground noise는 줄어드는 장점이 있지만, background noise는 증가하는 단점이 있다.  
+
+<p align="center">
+ <img width="600"  src="Image/Image29.JPG">
+</p>  
+
+- Erosion(축소)  
+인접한 픽셀(마스크 영역 내에 있는 픽셀)이 모두 흰색(foreground) 영역이 있으면 foreground로 유지를 하고 그렇지 않을 경우 제거(background)한다.  
+background noise는 줄어드는 장점이 있지만, foreground noise는 증가하는 단점이 있다.  
+
+<p align="center">
+ <img width="600"  src="Image/Image30.JPG">
+</p>  
+
+Morphology 연산자도 여러 가지 법칙들이 성립한다.  
+
+<p align="center">
+ <img width="600"  src="Image/Image31.JPG">
+</p>  
+<p align="center">
+ <img width="600"  src="Image/Image32.JPG">
+</p>  
+
+### Opening & Closing  
+
+- Opening : erosion 연산을 먼저 한 후, dilation 연산을 진행하여 background noise를 제거하는데 효과적인 연산이다.  
+<p align="center">
+ <img width="600"  src="Image/Image33.JPG">
+</p>
+
+- Closing : dilation 연산을 먼저 한 후, erosion 연산을 진행하여 foreground noise를 제거하는데 효과적인 연산이다.  
+<p align="center">
+ <img width="600"  src="Image/Image34.JPG">
+</p>  
+
+### Boundary Extractor  
+
+Morphology 연산과 집합을 이용하여 경계를 추출하는 알고리즘을 만들 수 있다.  
+1. 기존 이미지에서 erosion 연산을 진행한 이미지를 빼주게 되면 경계 부분만 남는다.  
+
+<p align="center">
+ <img width="600"  src="Image/Image35.JPG">
+</p>  
+
+2. Dilation 연산을 진행한 이미지에서 기존 이미지를 빼주게 되면 경계 부분만 남는다.  
+
+<p align="center">
+ <img width="600"  src="Image/Image36.JPG">
+</p>  
+
+아래의 이미지는 Boundary Extractor를 사용한 예시이다.  
+a는 원본 binary image  
+b는 첫번째 방법을 이용하고 mask를 4-neighbor 형태의 mask를 사용한 경우  
+c는 첫번째 방법을 이용하고 mask를 8-neighbor 형태의 mask를 사용한 경우  
+d는 두번째 방법을 이용한 경우  
+
+<p align="center">
+ <img width="600"  src="Image/Image37.JPG">
+</p>  
