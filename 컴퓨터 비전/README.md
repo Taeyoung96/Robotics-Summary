@@ -3,6 +3,7 @@
 ## Contents
 - [Camera Geometry](#Camera-Geometry)  
 - [Color Transform](#Color-Transform)
+- [Image Thresholding](#Image-Thresholding)
 
 ## Camera Geometry
 
@@ -171,6 +172,77 @@ Intensity를 Linear하게 변환을 하여 Contrast를 크게 만들면 이미�
 <p align="center">
  <img width="600"  src="Image/Image16.JPG">
 </p>
+
+[위로](#Contents) / [뒤로](https://github.com/Taeyoung96/Robotics-Summary) 
+
+
+## Image Thresholding
+
+### Image Histogram  
+
+가로축으로 이미지의 픽셀 값, 세로축으로 이미지 픽셀 수를 나타낸 좌표에 이미지 특성을 표시한 것  
+히스토그램을 통하여 Intensity의 Frequency Distribution(도수 분포)을 알 수 있다.  
+
+### Image Binarization  
+
+이진화를 하는 이유?  
+:point_right: 이미지에서 foreground를 찾아내기 위해서  
+
+이진화가 무조건 되는 것은 아니다.  
+대상 이미지가 두 개의 영역으로 서로 다른 색깔로 구분 지을 수 있어야 하고, 각 영역 내에서는 색이 비슷해야 한다.  
+
+그렇다면 이진화를 할 때 Thresholding 값은 어떻게 찾을 것인가?  
+:point_right: 히스토그램 분석을 통하여 Threshold 값을 찾아낸다.  
+
+<p align="center">
+ <img width="400"  src="Image/Image17.JPG">
+</p>  
+
+아래와 같은 히스토그램을 가진 이미지는 이진화를 하기에 적당하지 않다.  
+
+<p align="center">
+ <img width="400"  src="Image/Image18.JPG">
+</p>  
+
+## Optimal Thresholding  
+
+최적의 Threshold를 찾기 위해서는 식이 필요하다.  
+
+<p align="center">
+ <img width="400"  src="Image/Image19.JPG">
+</p>  
+
+가장 많이 쓰이는 알고리즘은 **Otsu's Thresholding**이다.  
+
+픽셀 히스토그램을 구한 다음, 평균과 분산을 구한다.  
+
+<p align="center">
+ <img width="400"  src="Image/Image20.JPG">
+</p>  
+
+모든 t에 대해서 t를 기준으로 class를 두 개로 나눈 후 각각 class의 분산을 구한다.  
+
+<p align="center">
+ <img width="400"  src="Image/Image21.JPG">
+</p>  
+
+**가장 최적의 Threshold는 Within-class variance를 최소화시켜주는 값이다.**  
+
+또 다른 방법으로는 **Between-class Variance**를 이용해서 최적의 t값을 찾는 방법이 있다.  
+
+Within-class variance를 최소화시키는 것과 Between-class variance를 최대화시키는 것은 같은 의미이다.  
+
+<p align="center">
+ <img width="400"  src="Image/Image22.JPG">
+</p>  
+
+Between-class variance를 이용해서 최적의 t를 찾는 방법은 다음과 같다.  
+
+<p align="center">
+ <img width="400"  src="Image/Image23.JPG">
+</p>  
+
+[위로](#Contents) / [뒤로](https://github.com/Taeyoung96/Robotics-Summary) 
 
 
 
