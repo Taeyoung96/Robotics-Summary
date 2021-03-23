@@ -209,7 +209,7 @@ Intensity를 Linear하게 변환을 하여 Contrast를 크게 만들면 이미�
 최적의 Threshold를 찾기 위해서는 식이 필요하다.  
 
 <p align="center">
- <img width="500"  src="Image/Image19.JPG">
+ <img width="600"  src="Image/Image19.JPG">
 </p>  
 
 가장 많이 쓰이는 알고리즘은 **Otsu's Thresholding**이다.  
@@ -217,7 +217,7 @@ Intensity를 Linear하게 변환을 하여 Contrast를 크게 만들면 이미�
 픽셀 히스토그램을 구한 다음, 평균과 분산을 구한다.  
 
 <p align="center">
- <img width="500"  src="Image/Image20.JPG">
+ <img width="600"  src="Image/Image20.JPG">
 </p>  
 
 모든 t에 대해서 t를 기준으로 class를 두 개로 나눈 후 각각 class의 분산을 구한다.  
@@ -233,13 +233,13 @@ Intensity를 Linear하게 변환을 하여 Contrast를 크게 만들면 이미�
 Within-class variance를 최소화시키는 것과 Between-class variance를 최대화시키는 것은 같은 의미이다.  
 
 <p align="center">
- <img width="300"  src="Image/Image22.JPG">
+ <img width="250"  src="Image/Image22.JPG">
 </p>  
 
 Between-class variance를 이용해서 최적의 t를 찾는 방법은 다음과 같다.  
 
 <p align="center">
- <img width="500"  src="Image/Image23.JPG">
+ <img width="450"  src="Image/Image23.JPG">
 </p>  
 
 [위로](#Contents) / [뒤로](https://github.com/Taeyoung96/Robotics-Summary) 
