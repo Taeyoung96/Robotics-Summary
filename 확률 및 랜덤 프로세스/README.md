@@ -196,5 +196,52 @@ Density function이란 Distribution function을 x로 미분한 값
 <img width="150"  src="Image/image17.JPG">
 </p> 
 
+미분이 불가능할 때에도 Density function을 구해야 하기 때문에 unit step function을 이용해서 표현하기도 한다.  
+
+만약, CDF(Cumulative distribution function)가 아래와 같이 정의되어 있다면  
+
+<p align="center">
+<img width="150"  src="Image/image18.JPG">
+</p> 
+
+PDF(Probability density function)은 아래와 같이 정의할 수 있다.  
+
+<p align="center">
+<img width="150"  src="Image/image19.JPG">
+</p>
+
+Density function은 다음과 같은 특성을 가진다.  
+
+<p align="center">
+<img width="150"  src="Image/image20.JPG">
+</p>
+
+### Gaussian Random Variable  
+
+다음과 같은 Density function을 만족하는 Random Variable X를 **Gaussian**이라고 부른다.  
+
+<p align="center">
+<img width="300"  src="Image/image21.JPG">
+</p>
+
+적분을 구해 CDF(Cumulative distribution function)를 구하는 것이 일반적이지만 적분이 쉽지 않으므로 **표준화 과정**을 거쳐 구한다.  
+
+<p align="center">
+<img width="300"  src="Image/image22.JPG">
+</p>  
+
+또 다른 방법으로 CDF를 구할 때, Q-function을 이용해서 구하기도 한다. (추천하는 방법은 아님)  
+Q-function은 정확하게 적분을 할 수 없지만 근사화가 가능하다.  
+
+<p align="center">
+<img width="300"  src="Image/image23.JPG">
+</p>  
+
+<p align="center">
+<img width="300"  src="Image/image24.JPG">
+</p>  
+
+
+
 
  [위로](#Contents) / [뒤로](https://github.com/Taeyoung96/Robotics-Summary)   
