@@ -6,7 +6,7 @@
 - [Image Thresholding](#Image-Thresholding)
 - [Image Labeling](#Image-Labeling)
 - [Morphology](#Morphology)
-- [Box & Gaussian Filtering](#Box-&-Gaussian-Filtering)
+- [Box and Gaussian Filtering](#Box-and-Gaussian-Filtering)
 
 ## Camera Geometry
 
@@ -358,7 +358,7 @@ Morphology 연산과 집합을 이용하여 경계를 추출하는 알고리즘�
 
 [위로](#Contents) / [뒤로](https://github.com/Taeyoung96/Robotics-Summary)  
 
-## Box & Gaussian Filtering
+## Box and Gaussian Filtering
 
 ### Convolution  
 
