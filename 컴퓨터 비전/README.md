@@ -6,6 +6,7 @@
 - [Image Thresholding](#Image-Thresholding)
 - [Image Labeling](#Image-Labeling)
 - [Morphology](#Morphology)
+- [Box & Gaussian Filtering](#Box-&-Gaussian-Filtering)
 
 ## Camera Geometry
 
@@ -346,13 +347,87 @@ Morphology 연산과 집합을 이용하여 경계를 추출하는 알고리즘�
 </p>  
 
 아래의 이미지는 Boundary Extractor를 사용한 예시이다.  
-a는 원본 binary image  
-b는 첫번째 방법을 이용하고 mask를 4-neighbor 형태의 mask를 사용한 경우  
-c는 첫번째 방법을 이용하고 mask를 8-neighbor 형태의 mask를 사용한 경우  
-d는 두번째 방법을 이용한 경우  
+- a는 원본 binary image  
+- b는 첫번째 방법을 이용하고 mask를 4-neighbor 형태의 mask를 사용한 경우  
+- c는 첫번째 방법을 이용하고 mask를 8-neighbor 형태의 mask를 사용한 경우  
+- d는 두번째 방법을 이용한 경우  
 
 <p align="center">
  <img width="500"  src="Image/Image37.JPG">
 </p>  
 
-[위로](#Contents) / [뒤로](https://github.com/Taeyoung96/Robotics-Summary) 
+[위로](#Contents) / [뒤로](https://github.com/Taeyoung96/Robotics-Summary)  
+
+## Box & Gaussian Filtering
+
+### Convolution  
+
+Input 신호에 대한 선형 결합(Linear Combination)  
+
+<p align="center">
+ <img width="500"  src="Image/image38.JPG">
+</p>  
+
+f(x)를 원신호, h(x)를 kernel 또는 mask 또는 window라고 부른다.  
+
+**Convolution의 속성**  
+1. 교환법칙  
+2. 결합법칙  
+3. Cascade system을 만들 수 있다.  
+
+**Discrete Convolution으로 연산을 수행할 때, 1D convolution 2번 수행한 결과가 2D convolution 1번 수행한 것 보다 Complexity가 낮다.**  
+
+### Image Noise Model 
+
+모든 이미지에는 노이즈가 존재한다. :point_right: 여러 가지 필터를 이용해서 Noise를 제거한다.    
+인접한 픽셀에는 intensity에 대한 정보가 포함될 수 밖에 없다.  
+
+1. Gaussian Noise - 평균이 0 , 분산이 sigma일 때 Gaussian distribution을 따르는 noise  
+<p align="center">
+ <img width="500"  src="Image/image39.JPG">
+</p>  
+
+2. Salt-and-pepper Noise - 마치 이미지에 소금과 후추를 흩뿌린것 처럼 나타나는 Noise, 그 확률은 Uniform distribution을 따른다.    
+<p align="center">
+ <img width="500"  src="Image/image40.JPG">
+</p>  
+
+<p align="center">
+ <img width="500"  src="Image/Image41.JPG">
+</p>  
+
+### Box Filtering  
+
+Box Filtering이란?  
+:point_right: 인접 픽셀의 평균 값과 동일한 값을 갖는 공간 도메인 선형 필터  
+
+**Box filtering의 특징**  
+
+- 이미지에 Blur 현상을 일으킬 수 있다.  
+- 계산 속도가 빠르다. (가우시안 필터와 비교를 했을 때)  
+- Salt & pepper noise를 제거하지 못한다.  
+- Filtering 후, High frequency의 신호가 남아있다.  
+
+❗ 이미지를 주파수 영역으로 도메인을 바꿔서 보면, high frequency의 주파수 일수록 노이즈일 확률이 높다.  
+
+### Gaussian Filtering  
+
+Gaussian Filtering이란?  
+:point_right: 가우시안 필터는 임펄스 응답이 가우시안 함수인 필터  
+:point_right: 현재 픽셀값과 주변 이웃 픽셀값들의 가중 평균(weighted average)을 이용해서 현재 픽셀의 값을 대체  
+
+2D Gaussian은 1D Gaussian filter 2개로 분리해서 계산할 수 있다. 이렇게 해야 Compliexity가 줄어들고 계산속도가 빠르다.  
+
+<p align="center">
+ <img width="500"  src="Image/Image42.JPG">
+</p>
+
+Sigma의 값이 크면 클수록 Blur 현상이 더 심해진다.  
+
+**Gaussian Filtering의 특징**  
+
+- Filtering 후, Low frequency만 남길 수 있다. - truly low-pass filter  
+- Sigma의 값이 클 수록, 이미지의 Blur 현상이 더 심해진다.  
+- 노이즈를 제거하는데 보통 사용하는 Filter이다.  
+
+
