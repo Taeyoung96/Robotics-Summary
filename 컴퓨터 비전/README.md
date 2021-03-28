@@ -365,7 +365,7 @@ Morphology 연산과 집합을 이용하여 경계를 추출하는 알고리즘�
 Input 신호에 대한 선형 결합(Linear Combination)  
 
 <p align="center">
- <img width="500"  src="Image/image38.JPG">
+ <img width="600"  src="Image/image38.JPG">
 </p>  
 
 f(x)를 원신호, h(x)를 kernel 또는 mask 또는 window라고 부른다.  
@@ -384,16 +384,16 @@ f(x)를 원신호, h(x)를 kernel 또는 mask 또는 window라고 부른다.
 
 1. Gaussian Noise - 평균이 0 , 분산이 sigma일 때 Gaussian distribution을 따르는 noise  
 <p align="center">
- <img width="500"  src="Image/image39.JPG">
+ <img width="350"  src="Image/image39.JPG">
 </p>  
 
 2. Salt-and-pepper Noise - 마치 이미지에 소금과 후추를 흩뿌린것 처럼 나타나는 Noise, 그 확률은 Uniform distribution을 따른다.    
 <p align="center">
- <img width="500"  src="Image/image40.JPG">
+ <img width="400"  src="Image/image40.JPG">
 </p>  
 
 <p align="center">
- <img width="500"  src="Image/Image41.JPG">
+ <img width="600"  src="Image/Image41.JPG">
 </p>  
 
 ### Box Filtering  
@@ -419,7 +419,7 @@ Gaussian Filtering이란?
 2D Gaussian은 1D Gaussian filter 2개로 분리해서 계산할 수 있다. 이렇게 해야 Compliexity가 줄어들고 계산속도가 빠르다.  
 
 <p align="center">
- <img width="500"  src="Image/Image42.JPG">
+ <img width="700"  src="Image/Image42.JPG">
 </p>
 
 Sigma의 값이 크면 클수록 Blur 현상이 더 심해진다.  
@@ -430,4 +430,5 @@ Sigma의 값이 크면 클수록 Blur 현상이 더 심해진다.
 - Sigma의 값이 클 수록, 이미지의 Blur 현상이 더 심해진다.  
 - 노이즈를 제거하는데 보통 사용하는 Filter이다.  
 
+[위로](#Contents) / [뒤로](https://github.com/Taeyoung96/Robotics-Summary) 
 

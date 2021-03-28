@@ -312,7 +312,34 @@ Gaussian이 가장 대표적이긴 하지만 여러 형태의 Distribution funct
 <img width="700"  src="Image/image29_1.JPG">
 </p>  
 
+### Conditional Distribution and Density Functions  
 
+조건부 확률이 나왔을 때 PDF(Probability density function)와 CDF(Cumulative distribution function)를 구해보자.  
 
+- B라는 상황이 주어졌을 때, x가 X보다 작을 확률을 구해보면,  
+
+<p align="center">
+<img width="700"  src="Image/image30.JPG">
+</p>  
+
+Conditional Distribution의 특징은 다음과 같다.  
+<p align="center">
+<img width="700"  src="Image/image31.JPG">
+</p>  
+
+Conditional density function은 기존에 배웠던 Density function에서 조건부 확률 개념만 추가한 개념이다.  
+<p align="center">
+<img width="700"  src="Image/image32.JPG">
+</p>  
+
+이에 대한 특성은 다음과 같다.  
+<p align="center">
+<img width="700"  src="Image/image33.JPG">
+</p>  
+
+Conditional distribution과 Density function을 그래프로 그려보면 다음과 같다.  
+<p align="center">
+<img width="700"  src="Image/image34.JPG">
+</p>  
 
 [위로](#Contents) / [뒤로](https://github.com/Taeyoung96/Robotics-Summary)   
