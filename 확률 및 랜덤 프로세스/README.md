@@ -329,7 +329,7 @@ Conditional Distribution의 특징은 다음과 같다.
 
 Conditional density function은 기존에 배웠던 Density function에서 조건부 확률 개념만 추가한 개념이다.  
 <p align="center">
-<img width="300"  src="Image/image32.JPG">
+<img width="250"  src="Image/image32.JPG">
 </p>  
 
 이에 대한 특성은 다음과 같다.  
