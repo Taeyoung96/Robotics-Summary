@@ -3,10 +3,11 @@
 ## Contents
 1. [Camera Geometry](#1-Camera-Geometry)  
 2. [Color Transform](#2-Color-Transform)
-3. [Image Thresholding](#Image-Thresholding)
-4. [Image Labeling](#Image-Labeling)
-5. [Morphology](#Morphology)
-6. [Box and Gaussian Filtering](#Box-and-Gaussian-Filtering)
+3. [Image Thresholding](#3-Image-Thresholding)
+4. [Image Labeling](#4-Image-Labeling)
+5. [Morphology](#5-Morphology)
+6. [Box and Gaussian Filtering](#6-Box-and-Gaussian-Filtering)  
+7. [Histogram Transform](#7-Histogram-Transform)
 
 ## 1. Camera Geometry
 
@@ -179,7 +180,7 @@ Intensity를 Linear하게 변환을 하여 Contrast를 크게 만들면 이미�
 [위로](#Contents) / [뒤로](https://github.com/Taeyoung96/Robotics-Summary) 
 
 
-## Image Thresholding
+## 3. Image Thresholding
 
 ### Image Histogram  
 
@@ -251,7 +252,7 @@ Between-class variance를 이용해서 최적의 t를 찾는 방법은 다음과
 
 [위로](#Contents) / [뒤로](https://github.com/Taeyoung96/Robotics-Summary) 
 
-## Image Labeling  
+## 4. Image Labeling  
 
 이미지 라벨링이란 각각의 성분들로 Binary Image를 분류하고 싶을 때 사용하는 기법이다.  
 
@@ -289,7 +290,7 @@ Between-class variance를 이용해서 최적의 t를 찾는 방법은 다음과
 
 [위로](#Contents) / [뒤로](https://github.com/Taeyoung96/Robotics-Summary) 
 
-## Morphology  
+## 5. Morphology  
 
 Morphology란?  
 :point_right: Binary image를 좀 더 가공하여 노이즈를 제거하거나 너무 작은 feature들을 없애기 위해 하는 연산이다.  
@@ -358,7 +359,7 @@ Morphology 연산과 집합을 이용하여 경계를 추출하는 알고리즘�
 
 [위로](#Contents) / [뒤로](https://github.com/Taeyoung96/Robotics-Summary)  
 
-## Box and Gaussian Filtering
+## 6. Box and Gaussian Filtering
 
 ### Convolution  
 
@@ -430,5 +431,21 @@ Sigma의 값이 크면 클수록 Blur 현상이 더 심해진다.
 - Sigma의 값이 클 수록, 이미지의 Blur 현상이 더 심해진다.  
 - 노이즈를 제거하는데 보통 사용하는 Filter이다.  
 
+✔️ 시간복잡도 : Mean(Box) filtering < Gaussian filtering < Median filtering  
+
 [위로](#Contents) / [뒤로](https://github.com/Taeyoung96/Robotics-Summary) 
 
+## 7. Histogram Transform  
+
+### Histogram Equalization  
+
+- 픽셀의 밝기를 random variable로 보았을 때, 분산이 작으면 Contrast가 낮다.  
+- 픽셀의 밝기를 최대한 Uniform distribution하게 가져가면, 분산을 크게 하고 Contrast를 높일 수 있다.  
+
+수학적인 증명을 위해,   
+s=T(r)이라는 함수에 의해 r의 값을 s의 값으로 변환하는 것을 목표로 한다.  
+이때, T(r)은 단조증가한다는 것을 가정한다.  
+
+<p align="center">
+ <img width="700"  src="Image/image43.JPG">
+</p>
