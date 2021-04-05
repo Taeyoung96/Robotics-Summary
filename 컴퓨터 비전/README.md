@@ -1,14 +1,14 @@
 # 컴퓨터 비전
 
 ## Contents
-- [Camera Geometry](#Camera-Geometry)  
-- [Color Transform](#Color-Transform)
-- [Image Thresholding](#Image-Thresholding)
-- [Image Labeling](#Image-Labeling)
-- [Morphology](#Morphology)
-- [Box and Gaussian Filtering](#Box-and-Gaussian-Filtering)
+1. [Camera Geometry](#1.-Camera-Geometry)  
+2. [Color Transform](#2.-Color-Transform)
+3. [Image Thresholding](#Image-Thresholding)
+4. [Image Labeling](#Image-Labeling)
+5. [Morphology](#Morphology)
+6. [Box and Gaussian Filtering](#Box-and-Gaussian-Filtering)
 
-## Camera Geometry
+## 1. Camera Geometry
 
 Computer Vision System : Scene(3차원 공간)을 빛을 통해 들어온 정보를 이용,  
 카메라로 Image를 만들어 낸 다음 Computer로 인식을 하는 System  
@@ -126,7 +126,7 @@ Camera 좌표계와 World 좌표계에는 Rotation과 Translation Matrix로 표�
 
  [위로](#Contents) / [뒤로](https://github.com/Taeyoung96/Robotics-Summary)   
 
-## Color Transform  
+## 2. Color Transform  
 
 사람 눈에 보이는 가시광선 - 400nm(blue) ~ 700nm(red)  
 
