@@ -1,8 +1,8 @@
 # 컴퓨터 비전
 
 ## Contents
-1. [Camera Geometry](#1.-Camera-Geometry)  
-2. [Color Transform](#2.-Color-Transform)
+1. [Camera Geometry](#1-Camera-Geometry)  
+2. [Color Transform](#2-Color-Transform)
 3. [Image Thresholding](#Image-Thresholding)
 4. [Image Labeling](#Image-Labeling)
 5. [Morphology](#Morphology)
