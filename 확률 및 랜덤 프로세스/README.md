@@ -469,7 +469,7 @@ y_0 = T(x_0)라는 식이 성립하고, P{Y < y_0} = P{X < x_0}을 만족한다.
 
 범위에 만족하는 변수를 사용하는 방법이 있다.  
 <p align="center">
-<img width="300"  src="Image/image50.JPG">
+<img width="500"  src="Image/image50.JPG">
 </p> 
 
 Discrete한 Random Variable 같은 경우에도 X -> Y로 변환하는 T function이 연속이면 변환이 가능하다.  
