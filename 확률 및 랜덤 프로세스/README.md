@@ -360,17 +360,17 @@ Random variable이 continous한 경우 다음과 같이 정의할 수 있다.
 
 그리고 Random variable이 discrete한 경우에는 다음과 같이 정의할 수 있다.  
 <p align="center">
-<img width="250"  src="Image/image36.JPG">
+<img width="200"  src="Image/image36.JPG">
 </p> 
 
 Function g(x)에 대하여 Expected value는 동일한 공식에 함수만 추가해주면 구할 수 있다.  
 <p align="center">
-<img width="500"  src="Image/image37.JPG">
+<img width="700"  src="Image/image37.JPG">
 </p>  
 
 조건부 확률에 대한 Expected value도 구할 수 있다.  
 <p align="center">
-<img width="500"  src="Image/image38.jpg">
+<img width="700"  src="Image/image38.jpg">
 </p>  
 
 ### Moments  
@@ -379,7 +379,7 @@ Function g(x)에 대하여 Expected value는 동일한 공식에 함수만 추�
 Moments의 경우 g(X) = X^n이라고 하고 구하면 된다.  
 
 <p align="center">
-<img width="700"  src="Image/image39.JPG">
+<img width="300"  src="Image/image39.JPG">
 </p>  
 
 n의 차수에 따라 n-th moment라고 부른다.  
@@ -389,13 +389,13 @@ n=0 일 때는 1, n=1일 때는 평균과 같은 값을 구할 수 있다.
 
 Moments를 평균을 기준으로 구하는 것을 말한다.  
 <p align="center">
-<img width="300"  src="Image/image40.JPG">
+<img width="350"  src="Image/image40.JPG">
 </p>  
 
 n=2 일 때는 분산(Variance)라고 부른다.  
 분산은 다음과 같은 공식이 성립한다.  
 <p align="center">
-<img width="300"  src="Image/image41.jpg">
+<img width="500"  src="Image/image41.jpg">
 </p>  
 
 n=3일 때는 Skew of density function이라고 부른다.  
@@ -405,8 +405,8 @@ n=3일 때는 Skew of density function이라고 부른다.
 </p>  
 
 - Chebyshev's inequality  
-체비쇼프 부등식이란 확률 분포에서 그 어떠한 데이터 샘플 혹은 확률 분포에서 거의 모든 값이 평균값 (mean value)에 근접하며  
-"거의 모든" 과 "근접하는"의 양적 설명을 제공한다는 내용이다.  
+체비쇼프 부등식이란 **확률 분포에서 그 어떠한 데이터 샘플 혹은 확률 분포에서 거의 모든 값이 평균값 (mean value)에 근접하며  
+"거의 모든" 과 "근접하는"의 양적 설명을 제공한다는 내용**이다.  
 
 식으로 표현하면 다음과 같이 나타낼 수 있다.  
 <p align="center">
@@ -422,7 +422,7 @@ n=3일 때는 Skew of density function이라고 부른다.
 특성함수란 **각각의 확률 분포와 일대일 대응이 되는 함수**로, 특성함수를 이용하여 확률분포의 기댓값이나 분산 등의 값을 알아낼 수 있다.  
 Random variable X 에 대해서 Characteristic function은 다음과 같이 정의한다.  
 <p align="center">
-<img width="300"  src="Image/image44.JPG">
+<img width="250"  src="Image/image44.JPG">
 </p>  
 
 특성함수를 이용하여 n번째 moment를 구하면 다음과 같이 구할 수 있다.  
