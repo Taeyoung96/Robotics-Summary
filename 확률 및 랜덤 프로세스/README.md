@@ -441,6 +441,8 @@ Random variable X 에 대해서 Characteristic function은 다음과 같이 정�
 
 Random Variable X가 Y로 변환할 때, 그에 대한 확률 밀도 함수를 구하는 과정을 알아보자.  
 
+**함수 T가 단조 함수 일때**  
+
 우선 두 가지 경우를 생각해볼 수 있다.  
 
 1. 먼저 X -> Y로 변환하는 함수가 단조 증가 함수 일때,  
@@ -463,7 +465,18 @@ y_0 = T(x_0)라는 식이 성립하고, P{Y < y_0} = P{X < x_0}을 만족한다.
 <img width="300"  src="Image/image49.JPG">
 </p>  
 
+**함수 T가 단조 함수가 아닐 때**  
 
+범위에 만족하는 변수를 사용하는 방법이 있다.  
+<p align="center">
+<img width="300"  src="Image/image50.JPG">
+</p> 
+
+Discrete한 Random Variable 같은 경우에도 X -> Y로 변환하는 T function이 연속이면 변환이 가능하다.  
+
+X가 Y로 어떻게 변환하는지 확인하고, X에 해당하는 probabilities를 Y에도 적용하면 된다.  
+
+[위로](#Contents) / [뒤로](https://github.com/Taeyoung96/Robotics-Summary)   
 
 
 
