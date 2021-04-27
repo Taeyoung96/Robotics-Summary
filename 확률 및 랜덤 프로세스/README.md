@@ -1,11 +1,11 @@
 # 확률 및 랜덤 프로세스  
 
 ## Contents
-- [Definitions of Probability](#Definitions-of-Probability)  
-- [The Random Variable](#The-Random-Variable)
+- [1. Definitions of Probability](#Definitions-of-Probability)  
+- [2. The Random Variable](#The-Random-Variable)
 
 
-## Definitions of Probability  
+## 1. Definitions of Probability  
 
 확률의 기본적인 용어를 정리하고 확률의 정의에 대해서 알아보자.  
 - 집합 : Set  
@@ -145,7 +145,7 @@ Ex ) 정수의 집합을 Z라 할 때, 이 집합은 Countable, inifinite
 
  [위로](#Contents) / [뒤로](https://github.com/Taeyoung96/Robotics-Summary)   
 
-## The Random Variable  
+## 2. The Random Variable  
 
 ### Random Variable의 정의  
 
