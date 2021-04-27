@@ -3,7 +3,7 @@
 ## Contents
 - [1. Definitions of Probability](#1-Definitions-of-Probability)  
 - [2. The Random Variable](#2-The-Random-Variable)  
-- [3. Operations on One Random Variable](#3)
+- [3. Operations on One Random Variable](#3-operations-on-one-random-variable)
 
 
 ## 1. Definitions of Probability  
@@ -346,4 +346,124 @@ Conditional distribution과 Density function을 그래프로 그려보면 다음
 [위로](#Contents) / [뒤로](https://github.com/Taeyoung96/Robotics-Summary)   
 
 ## 3. Operations on One Random Variable  
+
+### Expectation  
+
+평균이란 **Random Variable에 포함되는 모든 수를 더하고 그 갯수로 나누는 과정**을 의미한다.  
+
+동의어로는 Mathematical expectation, expected value, mean value, statistical average 등이 있다.  
+
+Random variable이 continous한 경우 다음과 같이 정의할 수 있다.  
+<p align="center">
+<img width="500"  src="Image/image35.JPG">
+</p> 
+
+그리고 Random variable이 discrete한 경우에는 다음과 같이 정의할 수 있다.  
+<p align="center">
+<img width="500"  src="Image/image36.JPG">
+</p> 
+
+Function g(x)에 대하여 Expected value는 동일한 공식에 함수만 추가해주면 구할 수 있다.  
+<p align="center">
+<img width="500"  src="Image/image37.JPG">
+</p>  
+
+조건부 확률에 대한 Expected value도 구할 수 있다.  
+<p align="center">
+<img width="500"  src="Image/image38.JPG">
+</p>  
+
+### Moments  
+
+평균을 구할 때, 함수를 적용하여 평균을 구하는 경우가 있었는데,  
+Moments의 경우 g(X) = X^n이라고 하고 구하면 된다.  
+
+<p align="center">
+<img width="500"  src="Image/image39.JPG">
+</p>  
+
+n의 차수에 따라 n-th moment라고 부른다.  
+n=0 일 때는 1, n=1일 때는 평균과 같은 값을 구할 수 있다.  
+
+#### Central Moments  
+
+Moments를 평균을 기준으로 구하는 것을 말한다.  
+<p align="center">
+<img width="500"  src="Image/image40.JPG">
+</p>  
+
+n=2 일 때는 분산(Variance)라고 부른다.  
+분산은 다음과 같은 공식이 성립한다.  
+<p align="center">
+<img width="500"  src="Image/image41.JPG">
+</p>  
+
+n=3일 때는 Skew of density function이라고 부른다.  
+이 값이 양수일 경우, Mode(최빈값) > Median(중간값) > Mean(평균값) 순으로 나타난다.  
+<p align="center">
+<img width="500"  src="Image/image42.JPG">
+</p>  
+
+- Chebyshev's inequality  
+체비쇼프 부등식이란 확률 분포에서 그 어떠한 데이터 샘플 혹은 확률 분포에서 거의 모든 값이 평균값 (mean value)에 근접하며  
+"거의 모든" 과 "근접하는"의 양적 설명을 제공한다는 내용이다.  
+
+식으로 표현하면 다음과 같이 나타낼 수 있다.  
+<p align="center">
+<img width="500"  src="Image/image43.JPG">
+</p>  
+
+### Functions that Give Moments  
+
+모멘트를 만들어주는 함수에 대해서 알아보자.  
+
+#### 1. Characteristic function  
+
+특성함수란 **각각의 확률 분포와 일대일 대응이 되는 함수**로, 특성함수를 이용하여 확률분포의 기댓값이나 분산 등의 값을 알아낼 수 있다.  
+Random variable X 에 대해서 Characteristic function은 다음과 같이 정의한다.  
+<p align="center">
+<img width="500"  src="Image/image44.JPG">
+</p>  
+
+특성함수를 이용하여 n번째 moment를 구하면 다음과 같이 구할 수 있다.  
+<p align="center">
+<img width="500"  src="Image/image45.JPG">
+</p>  
+
+#### 2. Moment generating function  
+
+특성함수에서 jw 대신에 v를 대입했다고 생각하면 이해하기 쉽다.  
+<p align="center">
+<img width="500"  src="Image/image46.JPG">
+</p>  
+
+### Transformations of a Random Variable  
+
+Random Variable X가 Y로 변환할 때, 그에 대한 확률 밀도 함수를 구하는 과정을 알아보자.  
+
+우선 두 가지 경우를 생각해볼 수 있다.  
+
+1. 먼저 X -> Y로 변환하는 함수가 단조 증가 함수 일때,  
+
+y_0 = T(x_0)라는 식이 성립하고, P{Y < y_0} = P{X < x_0}을 만족한다.  
+그럼 다음과 같이 식을 전개할 수 있다.  
+<p align="center">
+<img width="500"  src="Image/image47.JPG">
+</p>  
+
+2. X -> Y로 변환하는 함수가 단조 감소 함수 일때,  
+
+아까와 비슷한 식으로 전개할 수 있지만 부호가 바뀌는 것에 주의해야 한다.  
+<p align="center">
+<img width="500"  src="Image/image48.JPG">
+</p>  
+
+이 두가지 상황을 모두 고려하면 다음과 같이 공식으로 나타낼 수 있다.  
+<p align="center">
+<img width="500"  src="Image/image49.JPG">
+</p>  
+
+
+
+
 
